@@ -5,8 +5,16 @@ def check_website_status(url):
 import requests
 import sys # Import the sys module to read command-line arguments
 
-def check_website_status(url):
-    """Checks if a website is online and prints a simple status message."""
+# main.py
+
+def greet(name):
+  """
+  This function prints a personalized greeting.
+  """
+  print(f"Hello, {name}!")
+
+# Calling the function with a specific name
+greet("Alice")    """Checks if a website is online and prints a simple status message."""
     print(f"Checking status for: {url}")
     try:
         # Send a request to the URL with a 5-second timeout
